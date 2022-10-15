@@ -6,10 +6,11 @@ int main() {
     cin >> str1 >> str2;
     for(int i = 0; i < str1.length(); i++) {
         if(str1[i] != str2[i]) {
-            str3 += '1';
+            //str3 += '1';
+            str3.append("1");
         }
         else {
-            str3 += '0';
+            str3.append("0");
         }
     }
     cout << str3 << endl;
